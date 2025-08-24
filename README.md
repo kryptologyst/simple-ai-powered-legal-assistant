@@ -2,6 +2,9 @@
 
 Simple, local-first AI-powered legal document generator with FastAPI + Gradio, streaming, and DOCX/PDF export.
 
+![CI](https://github.com/kryptologyst/simple-ai-powered-legal-assistant/actions/workflows/ci.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 ## Features
 - Shared async Ollama client (`services/ollama_client.py`) with timeouts and error handling
 - Legal generator service (`services/legal_generator.py`) with normalized document types and templates
@@ -47,6 +50,9 @@ Open http://127.0.0.1:8000/ui for the Gradio UI
 ```bash
 python legal_assistant.py
 ```
+
+## CI
+- GitHub Actions runs Flake8 and pytest on push/PR to `main` (see `.github/workflows/ci.yml`).
 
 ## API
 POST `/legal/`
