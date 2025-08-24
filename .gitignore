@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+.venv/
+.env/
+venv/
+ENV/
+
+# OS / IDE
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Logs / cache
+*.log
+.cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Gradio / Uvicorn cache
+.gradio/
+.uvicorn/
+
+# Local data
+*.sqlite3
+
+# Byte-compiled / optimized / DLL files
+pip-wheel-metadata/
+
+# Coverage
+.htmlcov/
+.tox/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Node (if any future UI assets)
+node_modules/
