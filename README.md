@@ -1,6 +1,6 @@
-# AI-Powered Legal Assistant
+# Simple AI-Powered Legal Assistant
 
-FastAPI + Gradio app that generates legal documents using a local Ollama model (e.g., `deepseek-r1`).
+Simple, local-first AI-powered legal document generator with FastAPI + Gradio, streaming, and DOCX/PDF export.
 
 ## Features
 - Shared async Ollama client (`services/ollama_client.py`) with timeouts and error handling
